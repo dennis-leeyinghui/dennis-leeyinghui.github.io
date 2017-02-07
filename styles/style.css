@@ -134,7 +134,7 @@ display:none;
 
 body {
 
-	background:#195f88;
+	background:#ffdd15;
 
 	font-size:14px
 
@@ -456,7 +456,7 @@ ul#works_filter li a:hover, ul#works_filter li a.selected {
 
 #contact_form input {
 
-	background:#195f88;
+	background:#ffdd15;
 
 }
 
@@ -472,7 +472,7 @@ fieldset#contact_form textarea {
 
 	width:97.5%;
 
-	background:#195f88;
+	background:#ffdd15;
 
 	height:150px
 
