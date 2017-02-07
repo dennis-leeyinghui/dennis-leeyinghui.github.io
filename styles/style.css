@@ -6,7 +6,7 @@ body, p, div, h1, h2, h3, h4, h5, h6, table, tbody, tr, td, span, blockquote, a,
 
 	font-family:Arial, Helvetica, Sans-Serif;
 
-	color:#fff;
+	color:#000;
 
 	vertical-align:baseline;
 
@@ -302,7 +302,7 @@ div#container h3.page_title {
 
 	color:#000;
 
-	border-bottom:1px solid #fff;
+	border-bottom:1px solid #000;
 
 	text-shadow:1px 1px 2px #185477;
 
@@ -784,7 +784,7 @@ ol li {
 
 blockquote {
 
-	border-left:5px solid #7cb3d3;
+	border-left:5px solid #000;
 
 	font-style:italic;
 
