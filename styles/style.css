@@ -300,7 +300,7 @@ div#container h3.page_title {
 
 	font-size:35px;
 
-	color:#fff;
+	color:#000;
 
 	border-bottom:1px solid #fff;
 
@@ -346,7 +346,7 @@ div#works img {
 
 	-o-transition:all 500ms;
 
-	background:#fff;
+	background:#000;
 
 }
 
@@ -390,7 +390,7 @@ ul#works_filter li a:link, ul#works_filter li a:visited {
 
 	display:block;
 
-	color:#FFF;
+	color:#000;
 
 	margin-right:1px;
 
@@ -402,7 +402,7 @@ ul#works_filter li a:hover, ul#works_filter li a.selected {
 
 	background:#0D4667;
 
-	color:#fff;
+	color:#000;
 
 	opacity:1;
 
@@ -590,9 +590,9 @@ h4.blue {
 
 	font-family: 'OstrichSansBlack';
 
-	color: #0D4667;
+	color: #000;
 
-	text-shadow: 1px 1px 0px #84BBDB;
+	text-shadow: 1px 1px 0px #ffdd15;
 
 	font-size: 28px;
 
@@ -826,7 +826,7 @@ div.blogpost a.readmore:hover, ul.pagination a:hover, ul.pagination a.active_pag
 
 	background:url(./images/bg/50.png);
 
-	color:#FFF
+	color:#000
 
 }
 
@@ -834,7 +834,7 @@ ol.comments li.comment a.reply:hover, div.tab ul.tab_menu li:hover, div.tab ul.t
 
 	background:#8f8f8f;
 
-	color:#FFF
+	color:#000
 
 }
 
@@ -842,7 +842,7 @@ ol.comments li.comment a.reply:hover, div.tab ul.tab_menu li:hover, div.tab ul.t
 
 	color: White !important;
 
-	text-shadow:1px 1px 0px #0d4667;
+	text-shadow:1px 1px 0px #ffdd15;
 
 	font-size:25px !important;
 
@@ -878,7 +878,7 @@ ol.comments li.comment a.reply:hover, div.tab ul.tab_menu li:hover, div.tab ul.t
 
 .button {
 
-	color:#fff;
+	color:#000;
 
 	-webkit-border-radius: 0.2em;
 
@@ -942,7 +942,7 @@ ol.comments li.comment a.reply:hover, div.tab ul.tab_menu li:hover, div.tab ul.t
 
 	text-decoration: none;
 
-	color: #fff;
+	color: #000;
 
 	background-color: #35779d;
 
@@ -950,9 +950,9 @@ ol.comments li.comment a.reply:hover, div.tab ul.tab_menu li:hover, div.tab ul.t
 
 .button:active, .button.active {
 
-	color: #fff;
+	color: #000;
 
-	background-color: #12415c;
+	background-color: #ffdd15;
 
 }
 
@@ -986,7 +986,7 @@ ul.sublist li {
 
 ul.sublist li a {
 
-	color:#fff;
+	color:#000;
 
 	text-decoration:none;
 
@@ -994,7 +994,7 @@ ul.sublist li a {
 
 ul.sublist li a:hover {
 
-	color:#002b44;
+	color:#ffdd15;
 
 }
 
@@ -1002,7 +1002,7 @@ ul.sublist li a:hover {
 
 .grid {
 
-	border: 1px solid #4b88ad;
+	border: 1px solid #ffdd15;
 
 	border-bottom: none;
 
@@ -1014,9 +1014,9 @@ ul.sublist li a:hover {
 
 .grid li {
 
-	border-bottom: 1px solid #4b88ad;
+	border-bottom: 1px solid #ffdd15;
 
-	border-right: 1px solid #4b88ad;
+	border-right: 1px solid #ffdd15;
 
 	float: left;
 
