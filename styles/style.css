@@ -304,7 +304,7 @@ div#container h3.page_title {
 
 	border-bottom:1px solid #000;
 
-	text-shadow:1px 1px 2px #185477;
+	text-shadow:1px 1px 2px #000;
 
 	line-height:2;
 
@@ -400,7 +400,7 @@ ul#works_filter li a:link, ul#works_filter li a:visited {
 
 ul#works_filter li a:hover, ul#works_filter li a.selected {
 
-	background:#0D4667;
+	background:#ffdd15;
 
 	color:#000;
 
