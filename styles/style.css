@@ -26,12 +26,12 @@ body, p, div, h1, h2, h3, h4, h5, h6, table, tbody, tr, td, span, blockquote, a,
 
 .embed-container {
 	position: relative; 
-	height: 70vh; 
+	height: 100%; 
 	overflow: hidden; 
 	max-width: 100%; } 
 	
 .embed-container iframe, .embed-container object, .embed-container embed {
-	position: relative; 
+	position: absolute; 
 	top: 0; 
 	left: 0; 
 	width: 100%; 
