@@ -48,7 +48,7 @@ $(document).ready(function () {
         $(this).find('ul > li:first').addClass('active');
         $(this).find('div.tab_container > div:first').addClass('active');
     });
-
+	/* stop form autofocus */		$(function(){				$('input').blur();		});		
     /* toggles */
     $('.toggle h3').click(function () {
         $(this).parent().find('.toggle_data').slideToggle();
