@@ -106,8 +106,8 @@ function checkEmail(email) {
         return false;
     }
     return true;
-}
-
+}/* Allow Show Hide of Portfolio Details */
+function showHide(id, plusSignId) {    if ( document.getElementById(id).style.display == 'none') {        document.getElementById(id).style.display = 'block';		document.getElementById(plusSignId).value = '-';     } else {        document.getElementById(id).style.display = 'none';		document.getElementById(plusSignId).value = '+';     }}
 function sendMessage() {
     // receive the provided data
     var name = $("input#name").val();

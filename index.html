@@ -342,7 +342,7 @@
       <div class="page_content">
 
 	      <p> We strive to provide affordable high-quality advertising solutions to our clients.<br>
-		  Feel free to drop us an <a href="mailto:pinky.pomelo.21@gmail.com?Subject=Hello%20from%20dennis-leeyinghui.github.com">email</a>.<br> 
+		  Feel free to drop us an <a href="mailto:pinky.pomelo.21@gmail.com?Subject=Hello%20from%20dennis-leeyinghui.github.com">email</a>.<br><br>
 	          我們的宗旨是為客戶提供合理價格、質量優秀的平面廣告作品。<br>
 	          如有任何查詢，歡迎與我們<a href="mailto:pinky.pomelo.21@gmail.com?Subject=Hello%20from%20dennis-leeyinghui.github.com">聯絡</a>。</p>
 
@@ -448,7 +448,9 @@ _ads.js">
 
       <!-- page portfolio -->
 
-      <h3 class="page_title"> Portfolio - Seng Kee Noodles (Hong Kong)</h3>
+      <h3 class="page_title" id="page-title-sengkee"><span style="color:blue">Portfolio</span> - Seng Kee Noodles (Hong Kong)
+	  <input type="submit" class="portfolioArea" id="show_title-sengkee" onClick="showHide('works-sengkee','show_title-sengkee')" value="-" />
+	  </h3> 
 
       <div class="page_content">
 
@@ -472,7 +474,7 @@ _ads.js">
 
         <div class="clear"> </div> -->
 
-		<div class ="works" id="works-sengkee"> 
+		<div class ="works" id="works-sengkee" style="display:block"> 
 
           <!-- works --> 
 
@@ -503,12 +505,14 @@ _ads.js">
 
       <!-- page portfolio -->
 
-      <h3 class="page_title"> Portfolio - Two Dragons Restaurant (Taiwan)</h3>
+      <h3 class="page_title"><span style="color:blue">Portfolio</span> - Two Dragons Restaurant (Taiwan)
+	  <input type="submit" class="portfolioArea" id="show_title-twodragons" onClick="showHide('works-twodragons','show_title-twodragons')" value='-' /)>
+	  </h3>
 
 	   <div class="page_content">
 	  
 	
-        <div class ="works" id="works-twodragons"> 
+        <div class ="works" id="works-twodragons" style="display:block"> 
 
           <!-- works --> 
 
@@ -751,15 +755,15 @@ _ads.js">
 
           <form id="cform" name="cform" method="post" action="">
 
-            <input type="text" id="name" name="name" value="Full Name*" onfocus="if(this.value == 'Full Name*') this.value = ''"
+            <input class="personalDetails" type="text" id="name" name="name" value="Full Name*" onfocus="if(this.value == 'Full Name*') this.value = ''"
 
                             onblur="if(this.value == '') this.value = 'Full Name*'" />
 
-            <input type="text" id="email" name="email" value="Email Address*" onfocus="if(this.value == 'Email Address*') this.value = ''"
+            <input class="personalDetails" type="text" id="email" name="email" value="Email Address*" onfocus="if(this.value == 'Email Address*') this.value = ''"
 
                             onblur="if(this.value == '') this.value = 'Email Address*'" />
 
-            <input type="text" id="subject" name="subject" value="Subject*" onfocus="if(this.value == 'Subject*') this.value = ''"
+            <input class="personalDetails" type="text" id="subject" name="subject" value="Subject*" onfocus="if(this.value == 'Subject*') this.value = ''"
 
                             onblur="if(this.value == '') this.value = 'Subject*'" />
 

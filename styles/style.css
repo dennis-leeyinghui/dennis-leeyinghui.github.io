@@ -34,16 +34,16 @@ p {
 
 .embed-container {
 	position: relative; 
-	height: 800px; 
+	height: 70vh; 
 	overflow: hidden; 
 	max-width: 100%; } 
 	
 .embed-container iframe, .embed-container object, .embed-container embed {
-	position: absolute; 
+	position: relative; 
 	top: 0; 
 	left: 0; 
 	width: 100%; 
-	height: 800px; }
+	height: 100%; }
 
 
 
@@ -782,13 +782,12 @@ a:link, a:visited {
 
 }
 
-input, textarea, button {
+ input,textarea {
 
 	background:url(./images/bg/15.png);
 
 	clear:both;
 
-	float:left;
 
 	font-style:italic;
 
@@ -798,19 +797,36 @@ input, textarea, button {
 
 }
 
-input {
-
-	width:97.5%;
-
+textarea { 
+	
+	float:left;
+	
 }
 
-button {
+input.personalDetails {
+	
+	width: 87%;
+	
+}
 
+
+button, input.portfolioArea {
+
+	background:url(./images/bg/15.png);
+
+	clear:both;
+	
 	cursor:pointer;
 
 	margin-right:-2px !important;
 
-	font-style:normal
+	font-style:normal;
+	
+	font-size: 30px;
+	
+	padding:10px;
+	
+	/*float: right; */
 
 }
 
