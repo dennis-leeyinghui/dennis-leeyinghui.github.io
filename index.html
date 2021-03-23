@@ -9,6 +9,7 @@
     <title>Starter Template · Bootstrap v5.0</title>
 
 	<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/starter-template/">
 
@@ -36,7 +37,7 @@
     <link href="starter-template.css" rel="stylesheet">
   </head>
   <body style="background-image: linear-gradient(to right, #D0B49F , #e1cfc1); padding-top:0rem; padding-bottom:0rem">
-    
+
 <nav class="navbar navbar-expand-md navbar-dark fixed-top">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">DL</a>
@@ -66,7 +67,24 @@
 <div class="row" style="padding-top:10%">
 
 	<div class="column">
-		<h1 style="color:#3e2c1e; text-align:left">Dennis Lee</h1>
+
+		<p style="color:#3e2c1e; font-size:2em; font-weight:bold">Dennis LEE:
+		<span id="typedID">
+			<script>
+			var options = {
+				strings: [
+				"Hello!",
+				"Hello!",
+				"您好!",
+				"Bonjour!",
+				],
+				typeSpeed: 100,
+				backSpeed: 150,
+				loop: true,
+				}
+			var typed = new Typed("#typedID", options);
+			</script>
+		</span></p>
 		
 		<p class="lead" style="color:#3e2c1e; text-align:left">A current Graduate student in Island Studies in Canada.<br>Open to all challenges.</p>
 
