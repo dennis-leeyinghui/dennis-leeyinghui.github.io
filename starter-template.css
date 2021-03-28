@@ -10,3 +10,7 @@ body {
   flex: 50%;
 }
 
+.LI-col, .LI-header, .LI-name, .LI-title, .LI-more-info, .LI-field, .LI-footer, .LI-row {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size:99px;
+}
