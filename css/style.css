@@ -516,7 +516,7 @@ body {
   margin: 0 12px 1em;
 }
 .article-header {
-  padding: 1.5rem 1.5rem 0;
+  padding: 0.5rem 1.5rem 0;
 }
 .article-title {
   text-decoration: none;
@@ -675,7 +675,7 @@ a.article-title:hover {
 .article-entry-abstract {
   color: #aaa;
   font-size: 0.875rem;
-  padding: 2rem 0 0 1.5rem;
+  padding: 0.5rem 0 0 0.5rem;
   font-weight: 300;
 }
 .article-more-link a {
@@ -697,9 +697,8 @@ a.article-title:hover {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   font-size: 0.75rem;
-  padding-top: 0.5rem;
   margin-bottom: 0;
-  height: 3rem;
+  height: 0rem;
   margin: 0 1.5rem calc(1.5rem - 1px);
 }
 .article-footer:before,
