@@ -533,8 +533,8 @@ a.article-title:hover {
 }
 .article-entry {
   color: #ae631d;
-  padding: 0 2.5rem;
-  font-weight: 300;
+  padding: 0 10%;
+  font-weight: 400;
 }
 .article-entry:before,
 .article-entry:after {
@@ -564,7 +564,7 @@ a.article-title:hover {
 .article-entry h5,
 .article-entry h6 {
   line-height: 1.5rem;
-  margin: 1.5rem 0;
+  margin: 0.5rem 0;
 }
 .article-entry h2 {
   border-left: 3px solid #fbb805;
