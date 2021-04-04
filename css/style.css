@@ -612,43 +612,47 @@ a.article-title:hover {
   border-spacing: 0;
 }
 .article-entry th {
-  font-weight: bold;
+  width: 35%;
+}
+font-weight: bold {
   border-bottom: 1px solid #fff;
   padding-bottom: 0.5em;
 }
-.article-entry td {
-  border-bottom: 0.1px solid #fff;
+td {
+  width: 35%;
+}
+border-bottom: 0.1px solid white {
   padding: 10px 0;
 }
-.article-entry blockquote {
+blockquote {
   font-family: Georgia, "Times New Roman", serif;
   font-size: 1.4em;
   margin: 1.5rem 20px;
   text-align: center;
 }
-.article-entry blockquote footer {
+blockquote footer {
   font-size: 16px;
   margin: 1.5rem 0;
   font-family: "Noto Sans KR", sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
-.article-entry blockquote footer cite:before {
+blockquote footer cite:before {
   content: "—";
   padding: 0 0.5em;
 }
-.article-entry .pullquote {
+.pullquote {
   text-align: left;
   width: 45%;
   margin: 0;
 }
-.article-entry .pullquote.left {
+.pullquote.left {
   margin-left: 0.5em;
   margin-right: 1em;
 }
-.article-entry .pullquote.right {
+.pullquote.right {
   margin-right: 0.5em;
   margin-left: 1em;
 }
-.article-entry .caption {
+.caption {
   color: #999;
   display: block;
   font-size: 0.9em;
@@ -656,15 +660,15 @@ a.article-title:hover {
   position: relative;
   text-align: center;
 }
-.article-entry .video-container {
+.video-container {
   position: relative;
   padding-top: 56.25%;
   height: 0;
   overflow: hidden;
 }
-.article-entry .video-container iframe,
-.article-entry .video-container object,
-.article-entry .video-container embed {
+.video-container iframe,
+.video-container object,
+.video-container embed {
   position: absolute;
   top: 0;
   left: 0;
