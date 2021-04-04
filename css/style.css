@@ -121,6 +121,7 @@ html,
 body,
 #container {
   height: 100%;
+  background-color: #ae631d;
 }
 body {
   background: #fff;
@@ -615,7 +616,6 @@ a.article-title:hover {
   width: 35%;
 }
 font-weight: bold {
-  border-bottom: 1px solid #fff;
   padding-bottom: 0.5em;
 }
 td {
