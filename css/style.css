@@ -520,10 +520,16 @@ body {
 .article-header {
   padding: 0.5rem 1.5rem 0;
 }
+.article-header time {
+  font-size: 1rem;
+  font-weight: 300;
+  display: inline-block;
+  vertical-align: middle;
+}
 .article-title {
   text-decoration: none;
-  font-size: 2em;
-  font-weight: 100;
+  font-size: 1.7em;
+  font-weight: 400;
   color: #ae631d;
   -webkit-transition: color 0.2s;
   -moz-transition: color 0.2s;
@@ -715,19 +721,25 @@ blockquote footer cite:before {
   clear: both;
 }
 .article-footer a {
-  color: #ae631d;
+  color: #0896da;
   text-decoration: none;
 }
 .article-footer a:hover {
   color: #ff8243;
 }
+.article-tag-list {
+  font-size: 0.2rem;
+  font-weight: 300;
+}
 .article-tag-list-item {
   float: left;
   margin-right: 10px;
   margin-left: 10px;
+  text-transform: lowercase;
 }
 .article-tag-list-link:before {
   content: "#";
+  color: #0896da;
 }
 .article-comment-link {
   float: right;
@@ -966,10 +978,16 @@ blockquote footer cite:before {
   height: 2.25rem;
 }
 .archive-year {
-  font-weight: 100;
+  font-weight: 300;
   font-size: 1.5rem;
   line-height: 1.2;
-  text-shadow: 0 0px #fff;
+  color: #fff;
+}
+.article-category-link,
+.archive-year,
+.widget-title {
+  text-shadow: 0 0;
+  font-weight: 800;
 }
 .archives {
   -webkit-column-gap: 10px;
@@ -1004,8 +1022,8 @@ blockquote footer cite:before {
 }
 .archive-article-title {
   text-decoration: none;
-  font-weight: 100;
-  color: #555;
+  font-weight: 400;
+  color: #ae631d;
   -webkit-transition: color 0.2s;
   -moz-transition: color 0.2s;
   -ms-transition: color 0.2s;
@@ -1018,6 +1036,9 @@ blockquote footer cite:before {
 .archive-article-footer {
   margin-top: 1em;
 }
+.archive-type-post {
+  background-color: #eedfd1;
+}
 .archive-article-date {
   color: #999;
   text-decoration: none;
@@ -1029,6 +1050,9 @@ blockquote footer cite:before {
 }
 .archive-article-header h1 {
   margin-bottom: 0.25rem;
+}
+.archive-article-header time {
+  color: #ae631d;
 }
 #page-nav {
   margin: 0 auto;
